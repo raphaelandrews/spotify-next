@@ -25,15 +25,15 @@ export interface Database {
       }
       liked_songs: {
         Row: {
-          song_id: number
+          songs_id: number
           user_id: string
         }
         Insert: {
-          song_id: number
+          songs_id: number
           user_id: string
         }
         Update: {
-          song_id?: number
+          songs_id?: number
           user_id?: string
         }
       }
